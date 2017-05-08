@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.title {
+  text-align: center;
+}
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
